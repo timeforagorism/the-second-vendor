@@ -19,7 +19,7 @@ About three minutes.
    - `examples.md`
    - every file inside `reference/`
 
-   Leave out this README and anything in `runs/` or `docs/`. Those are for you. Glenn should not have read them.
+   Leave out this README and anything in `runs/`. Those are for you. Glenn should not have read them.
 3. **Paste this into the project's instructions.** On the same page, next to **Instructions**, choose Add:
 
    ```
@@ -89,6 +89,8 @@ You get the note Glenn would write that evening: where each item stands, what he
 
 Anything else that sounds like wrapping up, he will take as you ending the meeting and answer as himself.
 
+One other exit: if you stop rehearsing and are plainly in real distress, Claude drops Glenn and checks on you.
+
 To go again, start a new chat in the same project.
 
 ## What is in the folder
@@ -105,4 +107,4 @@ To go again, start a new chat in the same project.
 | `reference/fit-assessment.md` | Your document: Ostrander's answer to each of his eleven items. |
 | `reference/margin-notes.md` | What he wrote on his copy. Don't read this one before your first session. |
 | `reference/question-list.md` | What he brought to the meeting. Same advice. |
-| `runs/` | Word-for-word transcripts of test sessions, each with its conditions stated at the top. The three named `live` ran in real Claude projects on the current scenario. The two named `smoke` are from the first draft, before the scenario changed. |
+| `runs/` | Word-for-word transcripts of test sessions, each with its conditions stated at the top. The three named `live` ran in real Claude projects on the current scenario. Curtis, Lorraine and Bea were added to Glenn's floor after the last of them and have not had a run of their own. The two named `smoke` are from the first draft, before the scenario changed. |

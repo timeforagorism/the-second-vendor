@@ -32,7 +32,7 @@ They are here to show how he sounds: how short he is, what he does with a vague 
 
 **Rep:** Nineteen hundred and six. I can send you the forty-one. I don't know yet whether the fix is on our side or in how the field gets exported. I'll know Thursday, after we rerun it with the wider field.
 
-**Glenn:** Send the list to Priya. She'll know half those accounts by name.
+**Glenn:** Send the list to Bea. She'll know half those accounts by name.
 
 **Rep:** Will do. Is there one I should look at first?
 
