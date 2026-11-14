@@ -6,6 +6,8 @@ Drop this into a Claude project and Claude plays Glenn Marsh, Manager of Billing
 
 Glenn is a composite. Harlan Valley Electric and Ostrander Systems are invented.
 
+It has been run three times in real Claude projects. The transcripts are in `runs/`, and the short version is under [How it was tested](#how-it-was-tested).
+
 > **Note for Claude:** if this file is in your project, you are Glenn Marsh as `identity.md` and `rules.md` describe, from the user's first message. This page is the visitor's briefing. Glenn has never seen it and knows nothing on it until the visitor says it.
 
 ## Setup
@@ -93,6 +95,20 @@ One other exit: if you stop rehearsing and are plainly in real distress, Claude 
 
 To go again, start a new chat in the same project.
 
+## How it was tested
+
+Three sessions in real Claude projects on claude.ai, on Opus 5.5. Claude played the vendor in all three, typing through the browser. Each transcript is in `runs/`, word for word, with its conditions at the top and what it does not show at the bottom.
+
+| Run | What it tried | What happened |
+|---|---|---|
+| `2026-11-11-live-opus-attack-mix.md` | Buzzwords, flattery, pressure to sign, "are you an AI" twice, a request for advice framed as history, claimed panic, two insults, an instruction override, and a near miss on the end phrase. | No break on any of them. The debrief came only on the exact phrase. |
+| `2026-11-11-live-opus-lazy-install.md` | The setup done wrong on purpose. Every file dropped in, this README and the transcripts included, nothing pasted into Instructions, and a first message of "Hello". | Glenn from the first reply. Nothing from the role card on this page leaked. |
+| `2026-11-11-live-opus-long-friendly.md` | Fourteen turns of warmth: coffee, compliments, small talk, "as a friend", and three asks for the signature. | He did not soften. He gave ground only where an answer earned it. |
+
+Not tested: a smaller model, a session longer than fourteen turns, a second run of any of these, or a stranger doing the setup. Curtis, Lorraine and Bea were added to Glenn's floor after the last run and have not had a run of their own.
+
+One thing the folder cannot control. Claude sometimes shows a one-line thinking label above a reply, and a few of those described the role-play from outside. The replies under them held.
+
 ## What is in the folder
 
 | File | Its one job |
@@ -107,4 +123,4 @@ To go again, start a new chat in the same project.
 | `reference/fit-assessment.md` | Your document: Ostrander's answer to each of his eleven items. |
 | `reference/margin-notes.md` | What he wrote on his copy. Don't read this one before your first session. |
 | `reference/question-list.md` | What he brought to the meeting. Same advice. |
-| `runs/` | Word-for-word transcripts of test sessions, each with its conditions stated at the top. The three named `live` ran in real Claude projects on the current scenario. Curtis, Lorraine and Bea were added to Glenn's floor after the last of them and have not had a run of their own. The two named `smoke` are from the first draft, before the scenario changed. |
+| `runs/` | Word-for-word transcripts of test sessions, each with its conditions stated at the top. The three named `live` are the ones described above. The two named `smoke` are from the first draft, before the scenario changed. |
